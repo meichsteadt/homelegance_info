@@ -1,0 +1,87 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../sass/screen.scss */
+body {
+  height: 300vh;
+}
+
+/* line 8, ../sass/screen.scss */
+#hero {
+  width: 100%;
+  height: 120vh;
+  color: #fff;
+}
+/* line 12, ../sass/screen.scss */
+#hero .parallax-container {
+  height: 100%;
+}
+/* line 15, ../sass/screen.scss */
+#hero .parallax {
+  height: 110vh;
+}
+/* line 17, ../sass/screen.scss */
+#hero .parallax img {
+  filter: brightness(60%) blur(2px);
+  width: 100%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(0, 0, 0, 0.5);
+}
+/* line 23, ../sass/screen.scss */
+#hero h1 {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 300;
+}
+/* line 29, ../sass/screen.scss */
+#hero h1 strong {
+  font-weight: 600;
+}
+/* line 33, ../sass/screen.scss */
+#hero .logo {
+  left: 20px;
+  top: 20px;
+  color: #f2f2f2;
+  font-size: 70px;
+  border-radius: 50%;
+  width: 150px;
+  position: absolute;
+}
+/* line 42, ../sass/screen.scss */
+#hero .kiosk {
+  width: 50%;
+  min-width: 400px;
+  display: block;
+  margin: 50px auto;
+}
+
+/* line 50, ../sass/screen.scss */
+.indicator {
+  background-color: #2196F3 !important;
+}
+
+/* line 56, ../sass/screen.scss */
+#pricing .parallax img {
+  filter: brightness(60%) blur(2px);
+  width: 100%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* line 64, ../sass/screen.scss */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* line 70, ../sass/screen.scss */
+main {
+  flex: 1 0 auto;
+}
+
+/* line 74, ../sass/screen.scss */
+footer {
+  border-top: 1px solid #ccc;
+}
