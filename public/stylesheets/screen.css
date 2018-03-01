@@ -81,3 +81,7 @@ main {
 footer {
   border-top: 1px solid #ccc;
 }
+
+#scroll_to:hover {
+  cursor: pointer;
+}
