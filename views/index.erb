@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Homelegance Kiosk</title>
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <link rel="stylesheet" href="stylesheets/screen.css">
-    <script src="scripts.js" charset="utf-8"></script>
-  </head>
-  <body>
+
     <main>
       <section id="hero" class="parallax-container">
         <!-- <div class="bg"></div> -->
@@ -20,7 +7,7 @@
         </div>
         <h1>1,000 more products, in any store, <br> with the <strong>Homelegance Kiosk</strong>.</h1>
         <img alt="" class="logo" src="https://cdn3.bigcommerce.com/s-rpzf45a/product_images/uploaded_images/homelegance-logo.jpg?t=1446963648">
-        <img src="./imgs/kiosk 2.png" alt="" class="kiosk">
+        <img src="../imgs/kiosk.png" alt="" class="kiosk">
       </section>
 
       <section id="about" class="section white center-align">
@@ -118,7 +105,7 @@
       <section id="contact">
         <div class="row container">
           <h2 class="center-align">Get in touch</h2>
-          <form id="contact_form">
+          <form id="contact_form" action="/email" method="post">
             <div class="input-field col s6">
               <input type="text" id="first_name" type="text" class="validate">
               <label for="first_name">First Name</label>
@@ -148,8 +135,3 @@
         </div>
       </section>
     </main>
-    <footer class="center-align">
-      <p id="copy">Homelegance Kiosk &copy; </p>
-    </footer>
-  </body>
-</html>
